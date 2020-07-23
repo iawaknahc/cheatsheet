@@ -129,3 +129,7 @@ done
 foo() {
 	true
 }
+
+# Print and run command
+# The trick is to create a subshell, set -x, and run the command
+(set -x && echo hello)
