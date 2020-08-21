@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Declare the language of this document. -->
+<html lang="en">
+  <head>
+    <!-- Declare the encoding of this document -->
+    <!-- in case the Content-Type header does not. -->
+    <!-- This tag must be the first child of head. -->
+    <meta charset="utf-8">
+
+    <!-- Declare favicon for platforms we care -->
+    <!-- The design must adhere to -->
+    <!-- https://www.w3.org/TR/appmanifest/#icon-masks -->
+
+    <!-- The pre-HTML5 declaration -->
+    <!-- The shortcut before icon is important for IE to work -->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 64x64" href="icon.ico">
+
+    <!-- HTML5 -->
+    <link rel="icon" type="image/png" sizes="16x16" href="icon-16x16.png">
+    <link rel="icon" type="image/png" sizes="24x24" href="icon-24x24.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="icon-64x64.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512x512.png">
+
+    <!-- Apple -->
+    <!-- 180x180 is enough for iOS >= 7 -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icon-180x180.png">
+
+    <!-- Non-Apple -->
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <!-- Support mobile device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Every HTML document must have title. -->
+    <!-- Though the title should be localized. -->
+    <title>title</title>
+  </head>
+  <body>
+    <!-- Show a warning with best effort -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- The DOM node for React.render -->
+    <div id="react-app-root"></div>
+
+    <!-- The DOM node for ReactDOM.createPortal -->
+    <div id="react-portal-root"></div>
+  </body>
+</html>
