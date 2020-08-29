@@ -31,3 +31,16 @@
 | UHS-III             |  624MB/s |
 | SD Express PCIe 3.1 |  985MB/s |
 | SD Express PCIe 4.0 | 1969MB/s |
+
+## MicroSD
+
+MicroSD UHS-II card should be used with the bundled reader.
+Using an adapter without UHS-II will degrade the bus speed.
+
+## Products
+
+As of 2020-08, card with SDXC and UHS-II is the most advanced.
+
+As of 2020-08, reader with UHS-II and USB 3.0 is the most advanced.
+
+As of 2020-08, there is no UHS-II adapter.
